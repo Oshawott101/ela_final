@@ -259,5 +259,6 @@ function retake() {
   wordsA.innerHTML = "Ready?";
   button.innerHTML = "Start";
   hideAfterFirst.style.display = "inline";
-  question.innerHTML = "Let's get started!<br>Click the 'Start' button to start.";
+  question.innerHTML = "In this quiz, you will reflect on the Transcendentalist beliefs of <b>Importance of Nature</b>, <b>Intuition</b>, <b>Non-Conformity</b>, <b>Inherent Goodness of Humankind</b>, and <b>Self Reliance</b>. You will choose from 4 options for each of the 5 questions, gaining a different amount of points based on how close they are to the corresponding belief. At the end, you will look at quotes from famous Transcendentalists - such as Henry David Thoreau, Ralph Waldo Emerson, and Walt Whitman - about the beliefs you were closest to.<br>Click the 'Start' button to start.";
+  score = 0;
 }
